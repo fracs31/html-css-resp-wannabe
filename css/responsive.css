@@ -2,7 +2,7 @@
 @media screen and (width <= 480px) {
     /* Container */
     .container {
-        width: 100%;
+        width: 100vw;
     }
     /* Riga */
     .row {
@@ -16,6 +16,10 @@
     .lessons .col {
         width: 100%;
     }
+    /* Prima colonna della sezione "Lessons" */
+    .lessons .row .col:first-child {
+        margin-bottom: 3rem;
+    }
     /* Sezione "Steps" */
     .steps {
         margin: 0px;
@@ -23,6 +27,10 @@
     /* Colonne della sezione "Steps" */
     .steps .col {
         width: 100%;
+    }
+    /* Seconda colonna della sezione "Steps" */
+    .steps .row .col:nth-child(2) {
+        margin: 3rem 0rem;
     }
     /* Sezione "Why-us" */
     .why-us {
@@ -34,13 +42,17 @@
     .why-us .col {
         width: 100%;
     }
+    /* Colonna sinistra di "Why-us" */
+    .why-us .col-left {
+        margin-bottom: 3rem;
+    }
 }
 
 /* Tablet */
 @media screen and ((width > 480px) and (width <= 768px)) {
     /* Container */
     .container {
-        width: 100%;
+        width: 100vw;
     }
 }
 
@@ -48,6 +60,6 @@
 @media screen and ((width > 768px) and (width <= 1160px)) {
     /* Container */
     .container {
-        width: 100%;
+        width: 100vw;
     }
 }
