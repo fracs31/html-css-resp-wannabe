@@ -43,3 +43,11 @@
         width: 100%;
     }
 }
+
+/* Bonus */
+@media screen and ((width > 768px) and (width <= 1160px)) {
+    /* Container */
+    .container {
+        width: 100%;
+    }
+}
