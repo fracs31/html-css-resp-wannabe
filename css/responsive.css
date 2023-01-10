@@ -2,7 +2,7 @@
 @media screen and (width <= 480px) {
     /* Container */
     .container {
-        width: 100vw;
+        width: 100%;
     }
     /* Riga */
     .row {
@@ -52,7 +52,7 @@
 @media screen and ((width > 480px) and (width <= 768px)) {
     /* Container */
     .container {
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -60,6 +60,6 @@
 @media screen and ((width > 768px) and (width <= 1160px)) {
     /* Container */
     .container {
-        width: 100vw;
+        width: 100%;
     }
 }
