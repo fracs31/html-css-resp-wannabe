@@ -7,6 +7,7 @@
     /* Riga */
     .row {
         flex-direction: column;
+        flex-wrap: wrap;
     }
     /* Sezione "Lessons" */
     .lessons {
@@ -16,9 +17,9 @@
     .lessons .col {
         width: 100%;
     }
-    /* Prima colonna della sezione "Lessons" */
-    .lessons .row .col:first-child {
-        margin-bottom: 3rem;
+    /* Spaziatura colonne della sezione "Lessons" */
+    .lessons .row {
+        gap: 3rem;
     }
     /* Sezione "Steps" */
     .steps {
@@ -28,9 +29,9 @@
     .steps .col {
         width: 100%;
     }
-    /* Seconda colonna della sezione "Steps" */
-    .steps .row .col:nth-child(2) {
-        margin: 3rem 0rem;
+    /* Spaziatura colonne della sezione "Steps" */
+    .steps .row {
+        gap: 3rem;
     }
     /* Sezione "Why-us" */
     .why-us {
@@ -42,9 +43,9 @@
     .why-us .col {
         width: 100%;
     }
-    /* Colonna sinistra di "Why-us" */
-    .why-us .col-left {
-        margin-bottom: 3rem;
+    /* Spaziatura colonne di "Why-us" */
+    .why-us .row {
+        gap: 3rem;
     }
 }
 
